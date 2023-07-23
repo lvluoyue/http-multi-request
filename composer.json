@@ -1,0 +1,24 @@
+{
+    "name": "lvluoyue/http-multi-request",
+    "description": "一款基于PHP-Curl的轻量级HTTP多线程网络请求库",
+    "version": "1.1.0",
+    "keywords": [
+        "http",
+        "multi"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "落月",
+            "email": "1569097443@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "Http\\": "src"
+        }
+    }
+}
